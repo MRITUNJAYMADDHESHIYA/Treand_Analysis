@@ -212,7 +212,7 @@ def alldata():
     if year not in dicti:
         return jsonify({"error": "Invalid year selected"}), 400
     
-    file_path = "C:/Users/Mritunjay Maddhesiya/Downloads/Final Project/Final Project/fifa-dashboard/src/static/data/fifa18.csv"
+    file_path = "C:/Users/Mritunjay Maddhesiya/OneDrive/Desktop/Final Project/Final Project/fifa-dashboard/src/static/data/fifa18.csv"
     df = pd.read_csv(file_path)
     
     if 'value' in val:
